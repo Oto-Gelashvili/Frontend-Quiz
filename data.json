@@ -1,0 +1,364 @@
+{
+  "questions": {
+    "questionOne": {
+      "type": "Quiz style",
+      "correctAnswer": "Hypertext Markup Language",
+      "subject": "HTML",
+      "question": "What does HTML stand for?",
+      "answer": [
+        "Hypertext Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Multiple Language"
+      ]
+    },
+    "questionTwo": {
+      "type": "Quiz style",
+      "correctAnswer": "To contain meta-information about the HTML document",
+      "subject": "HTML",
+      "question": "What is the purpose of the <head> tag in HTML?",
+      "answer": [
+        "To contain meta-information about the HTML document",
+        "To define the header section of the document",
+        "To enclose the main content of the document",
+        "To create a link to an external stylesheet"
+      ]
+    },
+    "questionThree": {
+      "type": "Quiz style",
+      "correctAnswer": "<a>",
+      "subject": "HTML",
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "answer": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<hyperlink>"
+      ]
+    },
+    "questionFour": {
+      "type": "Quiz style",
+      "correctAnswer": "<h1>",
+      "subject": "HTML",
+      "question": "What is the correct HTML element for the largest heading?",
+      "answer": [
+        "<h1>",
+        "<heading>",
+        "<head>",
+        "<h6>"
+      ]
+    },
+    "questionFive": {
+      "type": "Quiz style",
+      "correctAnswer": "title",
+      "subject": "HTML",
+      "question": "Which attribute is used to provide an advisory text about an element or its contents in HTML?",
+      "answer": [
+        "title",
+        "advisory",
+        "info",
+        "description"
+      ]
+    },
+    "questionSix": {
+      "type": "Quiz style",
+      "correctAnswer": "<!-- This is a comment -->",
+      "subject": "HTML",
+      "question": "What is the correct way to add a comment in HTML?",
+      "answer": [
+        "<!-- This is a comment -->",
+        "// This is a comment",
+        "/* This is a comment */",
+        "' This is a comment"
+      ]
+    },
+    "questionSeven": {
+      "type": "Quiz style",
+      "correctAnswer": "<ul>",
+      "subject": "HTML",
+      "question": "Which tag is used to define an unordered list in HTML?",
+      "answer": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ]
+    },
+    "questionEight": {
+      "type": "Quiz style",
+      "correctAnswer": "An image",
+      "subject": "HTML",
+      "question": "What does the <img> tag represent in HTML?",
+      "answer": [
+        "An image",
+        "A hyperlink",
+        "A video",
+        "An audio file"
+      ]
+    },
+    "questionNine": {
+      "type": "Quiz style",
+      "correctAnswer": "alt",
+      "subject": "HTML",
+      "question": "Which attribute is used to specify an alternate text for an image in HTML?",
+      "answer": [
+        "alt",
+        "title",
+        "src",
+        "img-alt"
+      ]
+    },
+    "questionTen": {
+      "type": "Quiz style",
+      "correctAnswer": "Document Type Declaration",
+      "subject": "HTML",
+      "question": "What does the acronym DOCTYPE stand for in HTML?",
+      "answer": [
+        "Document Type Declaration",
+        "Document Text Encoding",
+        "Document Object Type",
+        "Document Typing Example"
+      ]
+    },
+    "questionEleven": {
+      "type": "Quiz style",
+      "correctAnswer": "letter-spacing",
+      "subject": "CSS",
+      "question": "Which CSS property is used to control the spacing between letters in a text?",
+      "answer": [
+        "letter-spacing",
+        "word-spacing",
+        "line-height",
+        "text-spacing"
+      ]
+    },
+    "questionTwelve": {
+      "type": "Quiz style",
+      "correctAnswer": "font-style: italic;",
+      "subject": "CSS",
+      "question": "What is the correct CSS property to make text italic?",
+      "answer": [
+        "font-style: italic;",
+        "text-style: italic;",
+        "font-italic: true;",
+        "italic: true;"
+      ]
+    },
+    "questionThirteen": {
+      "type": "Quiz style",
+      "correctAnswer": "background-color",
+      "subject": "CSS",
+      "question": "Which CSS property is used to set the background color of an element?",
+      "answer": [
+        "background-color",
+        "bgcolor",
+        "color-background",
+        "background"
+      ]
+    },
+    "questionFourteen": {
+      "type": "Quiz style",
+      "correctAnswer": "It specifies how an element should float",
+      "subject": "CSS",
+      "question": "In CSS, what does the 'float' property do?",
+      "answer": [
+        "It specifies how an element should float",
+        "It sets the element's height",
+        "It changes the font style",
+        "It aligns text"
+      ]
+    },
+    "questionFifteen": {
+      "type": "Quiz style",
+      "correctAnswer": "border-radius",
+      "subject": "CSS",
+      "question": "Which CSS property is used to add rounded corners to an element?",
+      "answer": [
+        "border-radius",
+        "corner-radius",
+        "rounded-corners",
+        "border-style"
+      ]
+    },
+    "questionSixteen": {
+      "type": "Quiz style",
+      "correctAnswer": "It hides the element completely, making it invisible and not taking up space",
+      "subject": "CSS",
+      "question": "What does the CSS property 'display: none;' do?",
+      "answer": [
+        "It hides the element completely, making it invisible and not taking up space",
+        "It changes the element's display to inline",
+        "It shows the element with no styling",
+        "It changes the element's font size"
+      ]
+    },
+    "questionSeventeen": {
+      "type": "Quiz style",
+      "correctAnswer": "font-size",
+      "subject": "CSS",
+      "question": "Which CSS property is used to control the size of text?",
+      "answer": [
+        "font-size",
+        "text-size",
+        "size",
+        "font-style"
+      ]
+    },
+      "questionEighteen": {
+        "type": "Quiz style",
+        "correctAnswer": "static",
+        "subject": "CSS",
+        "question": "What is the default value of the 'position' property in CSS?",
+        "answer": [
+          "static",
+          "relative",
+          "absolute",
+          "fixed"
+        ]
+      },
+      "questionNineteen": {
+        "type": "Quiz style",
+        "correctAnswer": "order",
+        "subject": "CSS",
+        "question": "Which CSS property is used to change the order of elements in a flex container?",
+        "answer": [
+          "order",
+          "flex-order",
+          "flex-direction",
+          "element-order"
+        ]
+      },
+      "questionTwenty": {
+        "type": "Quiz style",
+        "correctAnswer": "border: 1px solid black;",
+        "subject": "CSS",
+        "question": "What is the correct CSS syntax to apply a border to all sides of an element?",
+        "answer": [
+          "border: 1px solid black;",
+          "border-width: 1px; border-style: solid; border-color: black;",
+          "border-style: solid;",
+          "border-all: 1px black;"
+        ]
+      },
+      "questionTwentyOne": {
+        "type": "Quiz style",
+        "correctAnswer": "3271",
+        "subject": "javaScript",
+        "question": "What is the result of the expression '3 + 2 + '7' + 1' in JavaScript?",
+        "answer": [
+          "3271",
+          "12",
+          "57",
+          "6"
+        ]
+      },
+      "questionTwentyTwo": {
+        "type": "Quiz style",
+        "correctAnswer": "object",
+        "subject": "javaScript",
+        "question": "What will the following code output? console.log(typeof null);",
+        "answer": [
+          "object",
+          "null",
+          "undefined",
+          "number"
+        ]
+      },
+      "questionTwentyThree": {
+        "type": "Quiz style",
+        "correctAnswer": "It refers to the current object or context",
+        "subject": "javaScript",
+        "question": "What does the 'this' keyword refer to in JavaScript?",
+        "answer": [
+          "It refers to the current object or context",
+          "It refers to the global object",
+          "It refers to the parent object",
+          "It refers to the first argument of a function"
+        ]
+      },
+      "questionTwentyFour": {
+        "type": "Quiz style",
+        "correctAnswer": "A closure is a function that has access to its outer function's scope, even after the outer function has finished executing",
+        "subject": "javaScript",
+        "question": "What is a JavaScript closure?",
+        "answer": [
+          "A closure is a function that has access to its outer function's scope, even after the outer function has finished executing",
+          "A closure is a built-in JavaScript method",
+          "A closure is another name for a JavaScript class",
+          "A closure is a data type in JavaScript"
+        ]
+      },
+      "questionTwentyFive": {
+        "type": "Quiz style",
+        "correctAnswer": "It enforces stricter parsing and error handling in the code",
+        "subject": "javaScript",
+        "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+        "answer": [
+          "It enforces stricter parsing and error handling in the code",
+          "It allows the use of newer JavaScript features",
+          "It disables certain JavaScript features",
+          "It specifies that JavaScript should run in strict mode"
+        ]
+      },
+      "questionTwentySix": {
+        "type": "Quiz style",
+        "correctAnswer": "'==' checks for equality after type coercion, while '===' checks for strict equality without type coercion",
+        "subject": "javaScript",
+        "question": "What is the difference between '==' and '===' operators in JavaScript?",
+        "answer": [
+          "'==' checks for equality after type coercion, while '===' checks for strict equality without type coercion",
+          "'==' checks for strict equality, while '===' checks for equality after type coercion",
+          "'==' checks for equality without type coercion, while '===' checks for strict equality with type coercion",
+          "'==' and '===' are interchangeable and have the same behavior"
+        ]
+      },
+      "questionTwentySeven": {
+        "type": "Quiz style",
+        "correctAnswer": "They are used to work with asynchronous code and make it look synchronous",
+        "subject": "javaScript",
+        "question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+        "answer": [
+          "They are used to work with asynchronous code and make it look synchronous",
+          "They are used to declare variables as asynchronous",
+          "They are used to stop the execution of JavaScript code",
+          "They are used to handle errors in JavaScript"
+        ]
+      },
+      "questionTwentyEight": {
+        "type": "Quiz style",
+        "correctAnswer": "It declares a block-scoped variable",
+        "subject": "javaScript",
+        "question": "What does the 'let' keyword do in JavaScript?",
+        "answer": [
+          "It declares a block-scoped variable",
+          "It declares a global variable",
+          "It declares a constant variable",
+          "It declares a function"
+        ]
+      },
+      "questionTwentyNine": {
+        "type": "Quiz style",
+        "correctAnswer": "Using the typeof operator",
+        "subject": "javaScript",
+        "question": "How can you check the type of a variable in JavaScript?",
+        "answer": [
+          "Using the typeof operator",
+          "Using the type() function",
+          "Using the checkType() method",
+          "Using the getType() method"
+        ]
+      },
+      "questionThirty": {
+        "type": "Quiz style",
+        "correctAnswer": "It creates a new array by applying a function to each element of the original array",
+        "subject": "javaScript",
+        "question": "What does the 'map' method do in JavaScript arrays?",
+        "answer": [
+          "It creates a new array by applying a function to each element of the original array",
+          "It removes elements from an array based on a condition",
+          "It sorts the elements of an array",
+          "It concatenates multiple arrays"
+        ]
+    }
+  }
+}

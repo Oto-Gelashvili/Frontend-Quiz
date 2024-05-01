@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+:root{
+    --progress: 50%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #313E51;
+    padding: 1.6rem;
+}
+.landing-container{
+    display: flex;
+    gap: 5.4rem;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    gap: 1.6rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    width: 300px;
+
+}
+button{
+  background-color: rgb(60, 76, 103);
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  height: 25%;
+  font-size: 2.4rem;
+  padding: 1.6rem 2.4rem;
+  font-weight: 400;
+  transition: 0.4s;
+  outline: none;
+  border: 1px solid transparent;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3,1fr);
+}
+button .icon-container{
+  /* width: 30px;
+  height: 30px; */
+  justify-self: left;
+  /* border-radius: 1rem; */
+}
+button i{
+  padding: 6px 8px;
+  justify-self: left;
+  border-radius: 4px;
+}
+.buttons p{
+  width: 100%;
+  position: absolute;
+  font-size: 1.4rem;
+  color: #808FA4;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+button:hover{
+  cursor: pointer;
+}
+.html i{
+  background-color: #F9E2DC;
+}
+.css i{
+  background-color: #DCE2F9;
+}
+.js i{
+  background-color: #FCF8D9;
+}
+.start i{
+  background-color: #EFD9FC;
+}
+.html:hover{
+  background-color: #DD4B25;
+}
+.css:hover{
+  background-color: #254bdd;
+}
+.js:hover{
+  background-color: #efd81d;
+}
+.start:hover{
+  background-color: white;
+  color: #A629F0;
+}
+button:active{
+  background-color: #808FA4;
+}
+button:focus{
+  border: 1px solid white;
+}
+.button-selected{
+  background-color: #A629F0;
+}
+h1{
+    font-size: 4.2rem;
+    color: white;
+}
+span{
+    font-weight: 500;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.slider p, .types p{
+    font-size: 1.4rem;
+    color: #808FA4;
+    font-style: italic;
+}
+.types{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.6rem;
+}
+.types p{
+  grid-area: 1/1/2/3;
+}
+.types input{
+  display: none;
+}
+.custom-checkbox{
+  background-color: #3C4C67;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 1.6rem;
+  padding: 1.6rem 2.4rem;
+  border-radius: 1rem;
+  transition: 1s;
+  outline: none;
+  border: 1px solid transparent;
+
+}
+.custom-checkbox:focus{
+  border: white 1px solid;
+}
+input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: #A629F0;
+}
+.custom-checkbox:hover{
+  cursor: pointer;
+  background-color: #E2B089 !important;
+}
+.custom-checkbox:active{
+  background-color: #808FA4 !important;
+}
+form{
+    width: 100%;
+}  
+input[type=range] {
+    width: 100%;
+    margin: 5.5px 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #A629F0 var(--progress),#3C4C67 -100%);
+    border: 0;
+    border-radius: 3rem;
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    margin-top: -5.5px;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: 0.4s;
+  }
+    input[type=range]:hover::-webkit-slider-thumb {
+    background-color: #E2B089;
+    cursor: pointer;
+
+  }
+  input[type=range]:focus::-webkit-slider-thumb {
+    background-color: #E2B089;
+  }
+  input[type=range]::-moz-range-track {
+    background: linear-gradient(to right, #A629F0 var(--progress),#3C4C67 -100%);
+    border: 0;
+    border-radius: 30px;
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+  }
+  input[type=range]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: white;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  input[type=range]:hover::-moz-range-thumb,  input[type=range]:focus::-moz-range-thumb{
+    background-color: #E2B089;
+    cursor: pointer;
+
+  }
+  input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 17.2px 0;
+    color: transparent;
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-thumb {
+    width: 16px;
+    height: 16px;
+    background: white;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 0px;
+    /*Needed to keep the Edge thumb centred*/
+    box-shadow: 0px 15px 15px 3px #a4f3e8;
+    transition: 0.4s;
+  }
+  input[type=range]:hover::-ms-thumb,  input[type=range]:focus::-ms-thumb{
+    background-color: #E2B089;
+    cursor: pointer;
+  }
+  .slider label{
+    color: #A629F0;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    background-color: white;
+    border-radius: 2rem 2rem 2rem 0.25rem;
+    transform: rotate(-45deg);
+    display: grid;
+    place-items: center;
+    /* margin left of width/2 */
+    margin-left: -15px;
+    left: 50%;
+    top: -15px;
+    position: relative;
+  }
+  .slider .label-value{
+    transform: rotate(45deg);
+  }
+  .slider-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width:768px) {
+    .landing-container{
+      display: flex;
+      flex-direction: column;
+      gap: 8.4rem;
+  }
+  }
+  @media (max-width:375px) {
+    .options{
+      width: auto;
+      text-align: center;
+
+  }
+  .buttons{
+    width: auto;
+  }
+  h1{
+    font-size: 3.2rem;
+  }
+  }
+  @media (max-width:300px) {
+    .custom-checkbox{
+      padding: 0.6rem 1.2rem;
+    }
+    button{
+      padding: 1.6rem;
+      gap: 1rem;
+    }
+  }
+  @keyframes wrong {
+    0%   {transform: translate(0px,0); opacity: 0;}
+    20%{transform: translate(-10px,0); opacity: 0.2;}
+    40%  {transform: translate(10px,0); opacity: 0.4;}
+    60%  {transform: translate(-10px,0); opacity: 0.6;}
+    80%{transform: translate(10px,0); opacity: 0.8;}
+    100%   {transform: translate(0px,0); opacity: 1;}
+}

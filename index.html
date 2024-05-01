@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend Quiz, to get better at javaScript, HTML and CSS.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a90981c20e.js" crossorigin="anonymous"></script>
+    <title>Frontend Quiz</title>
+</head>
+
+<body id="index">
+    <section class="landing-container">
+        <div class="options">
+            <h1>Welcome to the<br><span>Frontend Quiz!</span></h1>
+            <form action="" class="slider">
+                <p>Pick total amount of questions:</p>
+                <div class="slider-container">
+                    <label for="slider" class="slider-label">
+                        <div class="label-value">5</div>
+                    </label>
+                    <input type="range" min="1" max="10" value="5" id="slider">
+                </div>
+            </form>
+            <form action="" class="types">
+                <p>Pick types of questions:</p>
+                <input type="checkbox" id="type-checker" checked>
+                <label for="type-checker" class="custom-checkbox" tabindex="0">Quiz style</label>
+                <input type="checkbox" id="flashcards">
+                <label for="flashcards" class="custom-checkbox" tabindex="0">Place Holder</label>
+            </form>
+        </div>
+        <div class="buttons">
+            <p>Pick subjects below:</p>
+            <button class="html button-selected">
+                <i class="fa-brands fa-html5" style="color: #DD4B25;"></i>
+                HTML
+            </button>
+            <button class="css">
+                <i class="fa-brands fa-css3-alt" style="color: #254bdd;"></i>
+                CSS
+            </button>
+            <button class="js">
+                <i class="fa-brands fa-js" style="color: #efd81d;"></i>
+                javaScript
+            </button>
+            <button class="start">
+                <i class="fa-solid fa-play" style="color: #A629F0;"></i>
+                Start
+            </button>
+        </div>
+    </section>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
